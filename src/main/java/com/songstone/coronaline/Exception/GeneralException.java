@@ -1,7 +1,9 @@
 package com.songstone.coronaline.Exception;
 
 import com.songstone.coronaline.constant.ErrorCode;
+import lombok.Getter;
 
+@Getter
 public class GeneralException extends RuntimeException{
 
     private final ErrorCode errorCode;
